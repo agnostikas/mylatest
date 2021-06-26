@@ -1,0 +1,67 @@
+{% assign experience = site.data.data.experience %}
+{% if ecperience %}
+<section class="company-keys-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    Previous experience
+  </h2>
+
+  <div class="company-headers">
+
+  <!--  {% for company in experience %} -->
+    <div class="item">
+
+        <h4>
+              Agathos - E-com Developer (over 2 years) - 2019-2021       
+        </h4>
+
+        <h4>
+              Partemba Global - PHP Developer (1 year) - circa 2018  
+        </h4>
+
+    </div>
+  <!--//item  {% endfor %} -->
+
+  </div>
+
+</section><!--//companies-section end-->
+
+<section class="achievents-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+     Achievements (KPIs)
+  </h2>
+
+  <div>
+      Chalice team - Legacy PHP, Singleton design, initially developed using Simple (reminiscent of AppleSoft Basic) in 1980s 
++
++         Introduced the average 50% saving on shipping costs by integrating Parcelhub's API multi-carrier services & discounted pool rates
++         Approx 30% increased the time efficiency & the ratio of shipments/packages per station / hour
++
++      WebBear team - ( Laravel / Eloquent / OOP )
++ 
++        Designed & developed e-com framework + CMS (by managing one junior developer)
++           Rewrote the admin panel (Voyager) & Brought Vue/Buefy knowledge to the company
++           - Reduced Abandoned basket rate by 3.4 times (85% to 35%) on Web Orders
++        By using Luckins API for data integration achieved a page load times under 2s having:
++           - 40k-50k Live Skus within several ( < 10 ) parent categories 
++           - most (Skus) having tens of filters (specs) combining multiple attributes, price, brand
++
++       Partemba dev team - ( Vue / PHP )
++           
++         daily auto-reporting & monitoring functionality to managers - reports of issues with data (or stock) & interface to action
++            - resulting up to 40% efficiency increase on warehouse KPIs
++       
+  </div>
+
+  </section>
+
+{% endif %}

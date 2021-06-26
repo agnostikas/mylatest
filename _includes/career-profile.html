@@ -1,0 +1,41 @@
+{% assign career-profile = site.data.data.career-profile %}
+{% if career-profile %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+     Summary 
+  </h2>
+
+  <div class="summary">
+
+        * Thrive at building effective and practical software solutions for business critical information systems 
++            cohesive with standard networking integrations
++
++       * Partisan of CNCF, FINOS, CD.Foundation landscapes including RedHat toolchain topologies
++
++       * Enjoy using (hacking with) - CircleCI, GitLab, CloudFoundry, Goorm, MyCorrhiza.Lesarbr (WikiEngine)
++
++       * Consensus and attentive to W3C standards & IETF Drafts / RFCs 
++            including new transport tech (as Quic) 
++
++       * Approx 4 Years experience with developing Ecom (inc SaaS) solutions & APIs 
++            Used   ::  PHP [Laravel, MySQL], VueJS [ Buefy, Typescript, NodeJS ]   ::
++
++       * Other Full-Stack expertise ~ (to be frank only a fair one) :   
++           _ Microsoft [ ASP.Net, Azure cloud, MS-DOS, Powershell, IOT DevKits ] + cloud integrations {AWS, IBM } 
++           _ Unix/Linux & Network Boot Firmwares - Freewares [ Bash, iPXE, Lxde, Ruby Formulae Brew, Perl Cgi, Docker (GO) ]
++           _ Red/Blue team Cyber vaults (Pen-testing)  :: 
++             => ^ Nmap, XSS/XXE, CSP policy & DNS zone tweaks, Buffer Overflows
++             => ^ ReverseShells & recent CVE (vuln.) exploits, OWASP (Heroku Swagger) & Burp Suite
+
+
+   <!--  {{ career-profile.summary | markdownify }} -->
+
+  </div><!--//summary - copied/pasted -->
+    
+</section><!--//section-->
+{% endif %}

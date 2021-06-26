@@ -1,0 +1,57 @@
+
+sidebar:
+    about: False 
+
+    # Profile information
+    name: Egidijus Gecas
+    tagline: Network Software Engineer
+    avatar: untitled.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: egi2tis@gmail.com
+    phone: +44 79 09 936 463
+    website: # 
+    linkedin: donegida
+    xing: # ee
+    github: agnostikas
+    telegram: # na
+    gitlab: agnostikas
+    bitbucket: agnostikas
+    twitter: # 'na'
+    stack-overflow: # egi2tis
+    codewars:
+    goodreads: # 
+
+    languages:
+      - idiom: Lithuanian
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+      - idiom: Russian & Polish
+        level: Basic speaking & understanding
+
+    interests:
+      - item: Maths
+      - item: Sudoku
+      - item: Surrealism
+      - item: Philosophy
+      - item: Checkers
+
+career-profile:
+    title: Career Profile
+    summary:
+          ToBeFilled
+
+     previous-experience:
+          ToBeFilled
+        
+     achievements-KPIs:  
+         
+             ToBeFilled
+     motto-goal:
+      
+             TBF
+footer: 
+        Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow"> 0x 3gid4 </a>
